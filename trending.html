@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .text{
+            border:0px solid white;
+            margin: 0;
+            width: 100%;
+            height:200px;
+            text-align: center;
+            font-size: 150px;
+            background-color: black ;
+            color: rgb(0, 0, 0);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-image: linear-gradient(to left,Grey,white);
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            
+        }
+         .buttons{
+            background-color: rgb(27, 41, 45);
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 45px;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 15px;
+            
+        }
+        .listing{
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            flex-direction: row;
+            background-color: white;
+        }
+        .names{
+            font-size:25px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .price{
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #goback{
+            background-color: rgb(27, 41, 45);
+            color: white;
+            font-family:'Times New Roman', Times, serif;
+            margin-bottom: 45px;
+            cursor: pointer;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+        .bottombutton{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="text">
+        <p>TRENDING <br>
+        </p>
+    </div>
+    <p>&nbsp;<br>
+    &nbsp;
+    </p>
+<div class="listing">
+    <div class="product">
+        <img src="./prodimages/p13.jpg" alt="" width="250px" height="250px">
+        <p class="names">Black Earrings<br>
+        <br>
+        <p class="price">Rs.3000</p>
+        <br>
+        </p>
+        <a href="p13buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <img src="prodimages/p92.jpg" alt="" width="250px" height="250px">
+        <p class="names">Silver Vine Ring<br>
+        <br>
+        <p class="price">Rs.4000</p>
+        <br>
+        </p>
+        <a href="p92buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <img src="prodimages/p15.jpg" alt="" width="250px" height="250px">
+        <p class="names">Cross Earrings<br>
+        <br>
+        <p class="price">Rs.15000</p>
+        <br>
+        </p>
+        <a href="p15buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+    </div>
+    <div class="product">
+        <img src="prodimages/p16.jpg" alt="" width="250px" height="250px">
+        <p class="names">Butterfly Earrings<br>
+        <br>
+        <p class="price">Rs.5000</p>
+        <br>
+        </p>
+        <a href="p16buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+    </div>
+</div>
+<p>&nbsp; <br>
+&nbsp;<br>
+&nbsp;
+</p>
+<div class="bottombutton">
+    <a href="main.html"><button type="button" id="goback">GO BACK TO MAIN PAGE</button></a>
+</div>
+</body>
+</html>

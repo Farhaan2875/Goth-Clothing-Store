@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        #storename{
+            text-align: center;
+            border: 1px solid black;
+            color: white;
+            background-color: black;
+            font-size: 35px;
+            padding: 20px;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        .nav{
+            border:1px solid black;
+            text-align: center;
+            background-color: black;
+            color: rgb(180, 183, 185);
+            padding: 10px;
+            height:20px;
+            align-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+        }
+        a{
+            color: aliceblue;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+        .mainimage{
+            height: 100%;
+            width: 100%;
+        }
+        .product{
+            border-style: solid;
+            border-color: white;
+            width: 250px;
+            height: 30ppx;
+        }
+        .listing{
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            flex-direction: row;
+            background-color: white;
+        }
+        .names{
+            font-size:25px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .price{
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .foot{
+            border: 1px solid black;
+            background-color: black;
+            height: 400px;
+        }
+        table{
+            color: white;
+            width: 100%;
+        }
+        th{
+            font-size: 28px;
+        }
+        tr{
+            text-align: left;
+
+            
+        }
+        tr,td,th{
+            font-family: 'Times New Roman', Times, serif;
+            border: 1px solid black;
+            padding: 20px;
+        }
+        .text{
+            border:0px solid white;
+            margin: 0;
+            width: 100%;
+            height:100%;
+            text-align: left;
+            font-size: 150px;
+            background-color: black ;
+            color: rgb(30, 44, 53);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-image: linear-gradient(to left,rgb(69, 69, 69),white);
+
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            
+            
+        }
+        .buttons{
+            background-color: rgb(27, 41, 45);
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 45px;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 15px;
+            
+        }
+        .mostpop{
+            border:0px solid white;
+            margin: 0;
+            padding: 30px;
+            width: 100%;
+            height:150px;
+            text-align: center;
+            font-size: 90px;
+            background-color: black ;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-image: linear-gradient(to bottom,black,white);
+            opacity:0.8;
+
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+            
+            
+        }
+        a:hover{
+        text-decoration: underline;
+        }
+        
+    </style>
+</head>
+<body>
+<header>
+    <div id="storename">
+        <h1>MIDNIGHT ATTIC</h1>
+        </div>
+    <div class="nav">
+        <nav id="footnav">
+            <a href="main.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="trending.html">TRENDING</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="bestsellers.html">BEST SELLERS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="newarrivals.html">NEW ARRIVALS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="silverjewellery.html">SILVER JEWELLERY</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="thrifted.html">APPARELS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="form.html">CREATE ACCOUNT</a>
+        </nav>
+    </div>
+    <div class="mainimage">
+        <img src="prodimages/graphic.jpg" alt="jwllry img" width="100%" height="500px">
+    </div>
+
+</header>
+<br>
+<br>
+<form action="a" method="post" enctype="multipart/form-data" id="buy"></form>
+<main>
+    <div class="listing">
+        <div class="product">
+            <img src="prodimages/p6.jpg" alt="" width="250px" height="250px">
+            <p class="names">Silver Heart ring <br>
+                <br>
+            <p class="price">Rs.4000</p>
+            </p>
+            <br>
+            <a href="p6buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p100.jpg" alt="" width="250px" height="250px">
+            <p class="names">Black Hoodie<br>
+                <br>
+            <p class="price">Rs.8000</p>
+            <br>
+            </p>
+            <a href="p100buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p27.jpg" alt="" width="250px" height="250px">
+            <p class="names">Silver Jewellery Set<br>
+            <br>
+            <p class="price">Rs.160000</p>
+            <br>
+            </p>
+            <a href="p27buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p12.jpg" alt="" width="250px" height="250px">
+            <p class="names">Skeleton Pendant<br>
+            <br>
+            <p class="price">Rs.5000</p>
+            <br>
+            </p>
+            <a href="p12buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p3.jpg" alt="" width="250px" height="250px">
+            <p class="names">Acid Wash Tee<br>
+            <br>
+            <p class="price">Rs.2000</p>
+            <br>
+            </p>
+            <a href="p3buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p4.jpg" alt="" width="250px" height="250px">
+            <p class="names">Basic Black Dress<br>
+            <br>
+            <p class="price">Rs.2500</p>
+            <br>
+            </p>
+           <a href="p4buy.html"> <button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p9.jpg" alt="" width="250px" height="250px">
+            <p class="names">Silver Cross<br>
+            <br>
+            <p class="price">Rs.1000</p>
+            <br>
+            </p>
+            <a href="p9buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p99.jpg" alt="" width="250px" height="250px">
+            <p class="names">Grey Hoodie<br>
+            <br>
+            <p class="price">Rs.4000</p>
+            <br>
+            </p>
+            <a href="p99buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p101.jpg" alt="" width="250px" height="250px">
+            <p class="names">Silver Ring <br>
+            <br>
+            <p class="price">Rs.6000</p>
+            <br>
+            </p>
+            <a href="p101buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p96.jpg" alt="" width="250px" height="250px">
+            <p class="names">Pointed Bronze Cross<br>
+            <br>
+            <p class="price">Rs.7000</p>
+            <br>
+            </p>
+            <a href="p96buy.html"> <button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="mostpop">
+            <p>MOST&nbsp;&nbsp;POPULAR&nbsp;&nbsp;ITEMS</p>
+        </div>
+        <div class="product">
+            <img src="prodimages/p11.jpg" alt="" width="250px" height="250px">
+            <p class="names">Black Corset<br>
+            <br>
+            <p class="price">Rs.8000</p>
+            <br>
+            </p>
+            <a href="p11buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p103.jpg" alt="" width="250px" height="250px">
+            <p class="names">Chrome Hearts Pendant<br>
+            <br>
+            <p class="price">Rs.9000</p>
+            <br>
+            </p>
+            <a href="p103buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p13.jpg" alt="" width="250px" height="250px">
+            <p class="names">Black Earrings<br>
+            <br>
+            <p class="price">Rs.3000</p>
+            <br>
+            </p>
+            <a href="p13buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p92.jpg" alt="" width="250px" height="250px">
+            <p class="names">Silver Vine Ring<br>
+            <br>
+            <p class="price">Rs.4000</p>
+            <br>
+            </p>
+            <a href="p92buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p15.jpg" alt="" width="250px" height="250px">
+            <p class="names">Cross Earrings<br>
+            <br>
+            <p class="price">Rs.15000</p>
+            <br>
+            </p>
+            <a href="p15buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p16.jpg" alt="" width="250px" height="250px">
+            <p class="names">Butterfly Earrings<br>
+            <br>
+            <p class="price">Rs.5000</p>
+            <br>
+            </p>
+            <a href="p16buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p17.jpg" alt="" width="250px" height="250px">
+            <p class="names">Black Spine Hoodie<br>
+            <br>
+            <p class="price">Rs.2000</p>
+            <br>
+            </p>
+            <a href="p17buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p93.jpg" alt="" width="250px" height="250px">
+            <p class="names">Steel Ring<br>
+            <br>
+            <p class="price">Rs.400</p>
+            <br>
+            </p>
+            <a href="p93buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p94.jpg" alt="" width="250px" height="250px">
+            <p class="names">Silver Star Ring<br>
+            <br>
+            <p class="price">Rs.4000</p>
+            <br>
+            </p>
+            <a href="p94buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p95.jpg" alt="" width="250px" height="250px">
+            <p class="names">Silver Cross Pendant<br>
+            <br>
+            <p class="price">Rs.40000</p>
+            <br>
+            </p>
+            <a href="p95buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+    <div class="text">
+        <p>SHOP NEW PRODUCTS <br>
+            BELOW
+        </p>
+    </div>
+        <div class="product">
+            <img src="prodimages/p23.jpg" alt="" width="250px" height="250px">
+            <p class="names">Leather Jacket<br>
+            <br>
+            <p class="price">Rs.7000</p>
+            </p>
+            <br>
+            <a href="p23buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p24.jpg" alt="" width="250px" height="250px">
+            <p class="names">Black Pearl Nekclace<br>
+            <br>
+            <p class="price">Rs.45000</p>
+            </p>
+            <br>
+            <a href="p24buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p97.jpg" alt="" width="250px" height="250px">
+            <p class="names">Blue Hoodie<br>
+            <br>
+            <p class="price">Rs.2000</p>
+            </p>
+            <br>
+            <a href="p97buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p98.jpg" alt="" width="250px" height="250px">
+            <p class="names">Grey Cross Hoodie<br>
+            <br>
+            <p class="price">Rs.3000</p>
+            </p>
+            <br>
+            <a href="p98buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+        <div class="product">
+            <img src="prodimages/p2.jpg" alt="" width="250px" height="250px">
+            <p class="names">Cross Hoodie<br>
+            <br>
+            <p class="price">Rs.3500</p>
+            </p>
+            <br>
+            <a href="p2buy.html"><button type="button" form="buy" class="buttons">BUY NOW</button></a>
+        </div>
+
+
+    </div>
+</main>
+<br>
+<br>
+<br>
+
+<footer class="foot">
+        <table>
+            <tr>
+                <th>Customer Service</th>
+                <th>About us</th>
+            </tr>
+            <tr>
+                <td><a href="">Return</a></td>
+                <td><a href="">Contact Us</a></td>
+                
+            </tr>
+            <tr>
+                <td><a href="">Terms of Services</a></td>
+                <td><a href="">Company Info</a></td>
+            </tr>
+            <tr>
+                <td><a href="">Exchange</a></td>
+                <td><a href="">Gift Cards</a></td>
+            </tr>
+            <tr>
+                <td><a href="">Customer Support</a></td>
+                <td><a href="">Privacy Policy</a></td>
+ 
+            </tr>
+            <tr>
+        </table>
+        <br>
+        <br>
+        <p style="color: aliceblue; text-align: center;">@2024 All Rights Served</p>
+</footer>
+
+</body>
+</html>

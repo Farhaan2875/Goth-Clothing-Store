@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+    *{
+        font-family: anybody;
+    }
+    .product{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 100%;
+        width:98%;
+        flex-direction: row;
+
+    }
+    .productimg{
+        text-align: left;
+        padding: 100px;
+        margin-left: 5px;
+        margin-right: 50px;
+    }
+    .productdata{
+        border: 5px black solid;
+        text-align: left;
+        font-size: 25px;
+        margin-left:150px;
+        font-family: sans-serif;
+        height: 590px;
+        padding-right: 2ch;
+        padding-left: 2ch;
+        
+    }
+    #title{
+        text-align: center;
+        font-size: 50px ;
+        
+    }
+    .num{
+        text-align: right;
+    }
+    .buttons{
+            background-color: rgb(27, 41, 45);
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 45px;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 1ch;
+            
+        }
+
+    </style>
+</head>
+<body>
+<div class="product">
+    <div class="productimg">
+        <img src="./prodimages/p92.jpg" alt="" width="310px" height="310px">
+    </div>
+    <div class="productdata">
+        <p id="title"><h1>Silver Vine <br>
+        Ring</h1></p>
+        <table>
+            <tr>
+                <td colspan="5">Price</td>
+                <td class="num">4000</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="5"> Quantity</td>
+                <td class="num">1</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="5">Material</td>
+                <td class="num">Sterling Silver</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+             <tr>
+                <td colspan="5">Shipping Charges</td>
+                <td class="num">1000</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="5">GST</td>
+                <td class="num">18%</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="5">Total</td>
+                <td class="num">5423(Tax Incl.)</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="5"><a href="main.html"><button type="button" class="buttons">Continue Shopping</button></a></td>
+                <td class="num"><button type="button" class="buttons">Proceed To Checkout</button></td> 
+            </tr>
+            </table>
+    </div>
+
+</div>
+</body>
+</html>
